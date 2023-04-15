@@ -1,5 +1,7 @@
-himnarioNegro = [
+himnos = [
     {
+        "id":"h1n1",
+        "himnario":1,
         "numero": 1,
         "titulo": "No desmayaremos en la fé",
         "type": "Adviento",
@@ -31,6 +33,8 @@ himnarioNegro = [
         ]
     },
     {
+        "id":"h1n2",
+        "himnario":1,
         "numero": 2,
         "titulo": "Mirad oh! pueblo del Señor",
         "type": "Adviento",
@@ -62,6 +66,8 @@ himnarioNegro = [
         ]
     },
     {
+        "id":"h1n3",
+        "himnario":1,
         "numero": 3,
         "titulo": "Viene pronto ya tu Rey",
         "type": "Adviento",
@@ -93,6 +99,8 @@ himnarioNegro = [
         ]
     },
     {
+        "id":"h1n4",
+        "himnario":1,
         "numero": 4,
         "titulo": "Oh!  Novia del Señor",
         "type": "Adviento",
@@ -124,6 +132,8 @@ himnarioNegro = [
         ]
     },
     {
+        "id":"h1n5",
+        "himnario":1,
         "numero": 5,
         "titulo": "El Novio viene debo pensar",
         "type": "Adviento",
