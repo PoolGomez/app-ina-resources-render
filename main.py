@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from data.Sedes import sedes
+from data.HimnarioNegro import himnarioNegro
 
 app = FastAPI()
 
@@ -15,3 +16,7 @@ def index():
 @app.get("/sedes")
 def listar_sedes():
     return sedes
+
+@app.get("/himnarioNegro")
+def listar_himnarioNegro():
+    return himnarioNegro

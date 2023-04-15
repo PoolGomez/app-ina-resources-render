@@ -1,4 +1,5 @@
-sedes = [{
+sedes = [
+{
     "id":1,
     "nombre":"canto grande",
     "distrito":3,
@@ -11,3 +12,4 @@ sedes = [{
     "pais":1,
 }
 ]
+   
