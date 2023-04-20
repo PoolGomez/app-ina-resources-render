@@ -4,6 +4,10 @@ from data.Himnos import himnos
 from data.Himnarios import himnarios
 from docs import tags_metadata
 from routes.user import user
+from routes.authentication import authentication
+from routes.sede import sede
+from routes.himnario import himnario
+from routes.himno import himno
 
 app = FastAPI(
     title="REST API APPINA",
@@ -13,6 +17,10 @@ app = FastAPI(
 )
 
 app.include_router(user)
+app.include_router(authentication)
+app.include_router(sede)
+app.include_router(himnario)
+app.include_router(himno)
 
 @app.get("/")
 def index():
@@ -23,14 +31,14 @@ def index():
 #     usuarios = pd.read_csv("./data/membresia.csv")
 #     return json.loads(usuarios.to_json(orient='records'))
 
-@app.get("/sedes")
-def listar_sedes():
-    return sedes
+# @app.get("/sedes")
+# def listar_sedes():
+#     return sedes
 
-@app.get("/himnos")
-def listar_himnos():
-    return himnos
+# @app.get("/himnos")
+# def listar_himnos():
+#     return himnos
 
-@app.get("/himnarios")
-def listar_himnarios():
-    return himnarios
+# @app.get("/himnarios")
+# def listar_himnarios():
+#     return himnarios

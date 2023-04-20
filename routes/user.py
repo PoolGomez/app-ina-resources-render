@@ -8,7 +8,6 @@ from starlette.status import HTTP_204_NO_CONTENT
 
 user =APIRouter()
 
-
 #@user.get('/users',response_model=list[User], tags=["users"])
 @user.get('/users')
 def find_all_user():
